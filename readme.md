@@ -2,6 +2,11 @@
 
 Este é um projeto de uma API para gerenciar dados de Pokémons. A API permite adicionar, listar e deletar Pokémons, utilizando dados da [PokeAPI](https://pokeapi.co/) para preencher as informações de cada Pokémon. O projeto foi desenvolvido usando Node.js, Fastify, MySQL e testes com Jest.
 
+## Usando o Projeto
+
+- **Subindo o Servidor**: npx ts-node src/server.ts
+- **Ativando os testes unitários**: npm test
+
 ## Funcionalidades
 
 - **Adicionar um Pokémon**: Permite adicionar um Pokémon ao banco de dados, buscando informações na [PokeAPI](https://pokeapi.co/).
